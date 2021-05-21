@@ -7,4 +7,4 @@ line_four = song[86:112]
 line_five = song[113:144]
 line_six = song[144:]
 
-print(line_one, "\n", "\t", line_two, "\n", "\t\t", line_three, "\n\t\t", line_four, "\n", line_five, "\n","\t", line_six)
+print(line_one, "\n\t", line_two, "\n\t\t", line_three, "\n\t\t", line_four, "\n", line_five, "\n\t", line_six)
