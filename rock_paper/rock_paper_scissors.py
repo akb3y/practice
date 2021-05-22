@@ -4,27 +4,29 @@ choices = ("rock","paper","scissor")
 
 computer_choice = random.choice(choices)
 
-user_choice = input("Pick rock, paper, or scissor? \n")
+user_choice = input("Pick rock, paper, or scissor? \n").lower()
 
-if user_choice == "Rock":
+if user_choice == "rock":
     if computer_choice == "rock":
-        print("Tie")
+        print("Tie! The computer had", computer_choice)
     elif computer_choice == "paper":
-        print("Computer Wins")
+        print("Computer Wins! The computer had", computer_choice)
     else:
-        print("User wins")
+        print("User wins! The computer had", computer_choice)
 elif user_choice == "paper":
     if computer_choice == "rock":
-        print("Win")
+        print("Win! The computer had", computer_choice)
     elif computer_choice == "paper":
-        print("Tie")
+        print("Tie! The computer had", computer_choice)
     else:
-        print("Computer wins")
-else: 
+        print("Computer wins! The computer had", computer_choice)
+elif user_choice == "scissor":
     if computer_choice == "rock":
-        print("Computer Wins")
+        print("Computer Wins! The computer had", computer_choice)
     elif computer_choice == "paper":
-        print("User Wins")
+        print("User Wins! The computer had", computer_choice)
     else:
-        print("Tie")
+        print("Tie! The computer had", computer_choice)
+else:
+    print("Please choose from the correct list next time! Computer Wins!")
 
