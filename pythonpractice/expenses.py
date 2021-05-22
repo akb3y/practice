@@ -1,6 +1,12 @@
-expenses = [10,50,16,7.99,20,44]
-sum = 0
-for x in expenses:
-    sum = sum + x
+import math
+number_list = []
+n = int(input("How many days did you eat out for lunch? "))
 
-print("You spent $", sum, " on lunch this week!", sep='')
+for i in range(0, n):
+    print("Day",i)
+    item = float(input("How much did you spend?"))
+    print(item)
+    number_list.append(item)
+
+total = math.fsum(number_list)
+print(f"\nYou spent {round(total,2)} on lunch this week")
