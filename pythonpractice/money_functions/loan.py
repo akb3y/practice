@@ -12,8 +12,7 @@ for i in range(months):
     if(money_owed-payment < 0):
         print(f'The last payment is {round( money_owed,2)}')
         print('You paid off the loan in', i+1, 'months')
-        break 
-
+        break
     money_owed = money_owed - payment
 
     print(f'Paid{round(payment,2)} of which {round(interest_paid,2)} was interest.', end=' ')

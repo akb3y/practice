@@ -2,7 +2,7 @@ import math
 number_list = []
 n = int(input("How many days did you eat out for lunch? "))
 
-for i in range(0, n):
+for i in range(1, n):
     print("Day",i)
     item = float(input("How much did you spend?"))
     print(item)

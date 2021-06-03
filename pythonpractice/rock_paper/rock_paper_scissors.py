@@ -13,24 +13,24 @@ while True:
 
 if user_choice == "rock":
     if computer_choice == "rock":
-        print("Tie! The computer had ", computer_choice, "!", sep"")
+        print("\033[1;30;41m Tie! The computer had ", computer_choice, "!", sep="")
     elif computer_choice == "paper":
-        print("Computer Wins! The computer had ", computer_choice, "!", sep"")
+        print("\033[1;30;41m Computer Wins! The computer had ", computer_choice, "!", sep="")
     else:
-        print("User wins! The computer had ", computer_choice, "!", sep"")
+        print("\033[1;30;41m User wins! The computer had ", computer_choice, "!", sep="")
 elif user_choice == "paper":
     if computer_choice == "rock":
-        print("Win! The computer had ", computer_choice, "!", sep"")
+        print("Win! The computer had ", computer_choice, "!", sep="")
     elif computer_choice == "paper":
-        print("Tie! The computer had ", computer_choice, "!", sep"")
+        print("Tie! The computer had ", computer_choice, "!", sep="")
     else:
-        print("Computer wins! The computer had ", computer_choice, "!", sep"")
+        print("Computer wins! The computer had ", computer_choice, "!", sep="")
 else:
     if computer_choice == "rock":
-        print("Computer Wins! The computer had ", computer_choice, "!", sep"")
+        print("Computer Wins! The computer had ", computer_choice, "!", sep="")
     elif computer_choice == "paper":
-        print("User Wins! The computer had ", computer_choice, "!", sep"")
+        print("User Wins! The computer had ", computer_choice, "!", sep="")
     else:
-        print("Tie! The computer had ", computer_choice, "!", sep"")
+        print("Tie! The computer had ", computer_choice, "!", sep="")
 
 
